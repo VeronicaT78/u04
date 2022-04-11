@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+.heading{
+  margin-top: 10, 0, 10, 0;
+  margin-bottom: 10px;
+  background-color: rgb(240, 147, 26);
+  font-size: 24px;
+  color: whitesmoke;
+  text-align: left;
+  padding-left: 10px;
+}
+
+body{
+    background-color: rgb(235, 184, 117);
+}
+
+h2{
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.form{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+}
+
+input[type=text]{
+  width: 50%;
+  height: 110%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+
+.form_group{
+  padding-bottom: 10px;
+}
+
+table{
+  width: 80%;
+  margin: 30px auto;
+  
+  text-align: left;
+}
+tr {
+  border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+  background-color: whitesmoke;
+  border: none;
+  height: 30px;
+  padding: 2px;
+}
+tr:hover {
+  background: #F5F5F5;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(76, 138, 62);
+    border: none;
+    border-radius: 5px;
+}
+
+.done_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #2E8B57;
+  color: white;
+  border-radius: 3px;
+}
+
+.edit_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #d6970d;
+  color: white;
+  border-radius: 3px;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
+
+input[type=checkbox] {
+    position: relative;
+    float: left;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+
